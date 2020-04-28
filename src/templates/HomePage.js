@@ -2,11 +2,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Accordion from '../components/Accordion'
 import PageHeader from '../components/PageHeader'
+import BackgroundVideo from '../components/BackgroundVideo'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, accordion, body }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, backgroundVideo, accordion, body }) => (
   <main className="Home">
     <PageHeader
       large
@@ -14,6 +15,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, accordion, bo
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+     <section className="BackgroundVideo-section section">
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+        {video && <source src={video} type="video/mp4" />}
+      </BackgroundVideo>
+    </section>
     <section className="section">
       <div className="container">
         <Accordion items={accordion} />
