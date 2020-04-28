@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, section, featuredImage, video, videoPoster, videoTitle, accordion, body }) => (
-  <main className="Home">
+  <main>
     <PageHeader
       large
       title={title}
@@ -55,6 +55,9 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        video
+        videoPoster
+        videoTitle
         accordion {
           title
           description
