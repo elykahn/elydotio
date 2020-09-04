@@ -2,20 +2,12 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yellowcake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'ely.io',
+    siteUrl: 'https://elydotio.netlify.app/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
-    {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
-        includeInDevelopment: false
-      }
-    },
     {
       resolve: 'gatsby-plugin-offline',
       options: {
@@ -44,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'ely.io',
+        short_name: 'ely.io',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
