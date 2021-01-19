@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
-slug: test slug
-title: This is a test info page
+slug: uses
+title: Uses
 featuredImage: >-
   https://ucarecdn.com/0a485165-65c4-42ee-bf35-b93fbaf0fd2e/-/preview/-/rotate/270/
 meta:
