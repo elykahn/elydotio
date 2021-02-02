@@ -1,4 +1,5 @@
 :root {
+  --white: #fff;
   --primary: #00c2bd;
   --secondary: #000;
   --lightGrey: whitesmoke;
@@ -37,7 +38,7 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: var(--white);
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
@@ -109,11 +110,11 @@ blockquote {
   background-color: var(--lightGrey);
 }
 .white {
-  background-color: white;
+  background-color: var(--white);
 }
 .dark {
   background-color: var(--primary);
-  color: white;
+  color: var(--white);
 }
 .dark h1,
 .dark h2,
@@ -121,7 +122,7 @@ blockquote {
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: white;
+  color: var(--white);
 }
 
 .relative {
@@ -199,7 +200,7 @@ blockquote {
 
 .Button {
   background: var(--primary);
-  color: white;
+  color: var(--white);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
