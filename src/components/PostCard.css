@@ -1,11 +1,11 @@
 .PostCard {
   text-decoration: none;
-  background: rgba(225, 245, 255, 1);
-  color: white;
+  background: white;
+  color: #000;
   border: 1px solid var(--lightGrey);
   border-radius: var(--borderRadius);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all 1.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
   overflow: hidden;
 }
 
