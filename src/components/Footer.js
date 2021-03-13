@@ -7,7 +7,7 @@ export default () => (
     <h3 className="taCenter">
       find me{' '}
       <a href="https://instagram.com/creativ_ely_io/">insta</a>
-    </h2>
+    </h3>
     <br />
     <InstagramFeed count="8" />
     <footer className="footer">
