@@ -43,7 +43,7 @@ body {
   min-height: 100%;
   position: relative;
   background: var(--darkGrey);
-  color: var(--lightGrey);
+  color: var(--darkGrey);
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -75,7 +75,7 @@ h6 {
 }
 
 pre {
-  background: var(--lightGrey);
+  background: var(--darkGrey);
   line-height: 1.45;
   font-size: 85%;
   border-radius: 3px;
@@ -85,7 +85,7 @@ pre {
 code {
   font-size: 85%;
   padding: 0.15em 0;
-  background: var(--lightGrey);
+  background: var(--darkGrey);
   border-radius: 3px;
 }
 code:before,
@@ -111,7 +111,7 @@ blockquote {
 
 /* Utility Classes */
 .light {
-  background-color: var(--lightGrey);
+  background-color: var(--darkGrey);
 }
 .white {
   background-color: var(--white);
@@ -206,7 +206,7 @@ blockquote {
 /* Buttons */
 
 .Button {
-  background: var(--primary);
+  background: var(--darkGrey);
   color: var(--white);
   text-transform: uppercase;
   text-decoration: none;
