@@ -118,7 +118,7 @@ blockquote {
 }
 .dark {
   background-color: var(--darkGrey);
-  color: var(--white);
+  color: var(--lightGrey);
 }
 .dark h1,
 .dark h2,
@@ -126,7 +126,7 @@ blockquote {
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: var(--white);
+  color: var(--lightGrey);
 }
 
 .relative {
