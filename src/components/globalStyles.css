@@ -43,7 +43,7 @@ body {
   min-height: 100%;
   position: relative;
   background: var(--darkGrey);
-  color: var(--darkGrey);
+  color: var(--primary);
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -52,7 +52,7 @@ body {
 }
 
 a {
-  color: var(--primary);
+  color: var(--lightGrey);
 }
 
 strong {
@@ -84,6 +84,7 @@ pre {
 
 code {
   font-size: 85%;
+  font-style: mono;
   padding: 0.15em 0;
   background: var(--darkGrey);
   border-radius: 3px;
@@ -112,9 +113,11 @@ blockquote {
 /* Utility Classes */
 .light {
   background-color: var(--darkGrey);
+  color: black;
 }
 .white {
   background-color: var(--white);
+  color: var(--darkGrey);
 }
 .dark {
   background-color: var(--darkGrey);
@@ -192,12 +195,12 @@ blockquote {
 }
 
 .container {
-  max-width: 1680px;
-  width: 90%;
+  max-width: 100vw;
+  width: 93%;
   margin: 0 auto;
 }
 .container.skinny {
-  max-width: 888px;
+  max-width: 80vw;
 }
 .container.skinnier {
   max-width: 555px;
@@ -211,7 +214,7 @@ blockquote {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  // letter-spacing: 0.05em;
   font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;
