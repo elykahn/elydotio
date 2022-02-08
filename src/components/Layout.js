@@ -61,7 +61,7 @@ export default ({ children, meta, title }) => {
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               {/* Add font link tags here */}
             </Helmet>
-
+            <link rel="stylesheet" href="https://use.typekit.net/twa4rmv.css">
             <Meta
               googleTrackingId={googleTrackingId}
               absoluteImageUrl={
