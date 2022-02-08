@@ -1,10 +1,10 @@
 .Nav {
-  background: white;
+  background: var(--darkGrey);
   position: sticky;
   top: 0;
   z-index: 2;
-  border-bottom: 1px solid var(--lightGrey);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  border-bottom: 1px solid var(--darkGrey);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .Nav--Container {
@@ -36,9 +36,9 @@
 .NavLink {
   padding: 0.5rem 1rem;
   display: block;
-  font-weight: 500;
-  transition: color 0.2s, border-bottom-color 0.2s;
-  color: inherit;
+  font-weight: 300;
+  transition: all 0.2s, border-bottom-color 0.2s;
+  color: var(--darkGrey);
   text-decoration: none;
   border-bottom: 2px solid;
   border-bottom-color: transparent;
@@ -47,7 +47,7 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--primary);
+  color: var(--darkGrey);
   border-bottom-color: currentColor;
 }
 
@@ -70,7 +70,7 @@
   display: block;
   height: 0.8rem;
   width: 0.8rem;
-  transition: 0.3s ease all;
+  transition: 0.3s ease-in-out all;
   transform: translateY(-50%) rotate(45deg);
 }
 
@@ -79,7 +79,7 @@
   top: 100%;
   left: 0;
   width: auto;
-  background: white;
+  background: var(--darkGrey);
   /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
@@ -127,7 +127,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: var(--darkGrey);
     animation: Nav--Links 0.2s ease;
   }
 
